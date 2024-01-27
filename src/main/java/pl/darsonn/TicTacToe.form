@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pl.darsonn.TicTacToe">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="638" height="468"/>
+    </constraints>
+    <properties>
+      <background color="-15263942"/>
+      <enabled value="true"/>
+      <font name="Forte" size="36"/>
+      <foreground color="-15000774"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <splitpane id="e62c0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15000774"/>
+          <foreground color="-505177"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fcdad" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <background color="-15000774"/>
+              <foreground color="-15000774"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e882" class="javax.swing.JButton" binding="button3">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="845ff" class="javax.swing.JButton" binding="button2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="629c5" class="javax.swing.JButton" binding="button7">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2323c" class="javax.swing.JButton" binding="button8">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="c90da" class="javax.swing.JButton" binding="button9">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="fbf1d" class="javax.swing.JButton" binding="button6">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="70254" class="javax.swing.JButton" binding="button4">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="9d38f" class="javax.swing.JButton" binding="button1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e7bb8" class="javax.swing.JButton" binding="button5">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2ef76" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <background color="-15000774"/>
+              <font name="Arial Black" size="28"/>
+              <foreground color="-505177"/>
+              <minimumSize width="150" height="169"/>
+            </properties>
+            <border type="none" title="" noi18n="true"/>
+            <children>
+              <component id="d9bcf" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="28"/>
+                  <foreground color="-505177"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Round:"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="4d8a3" class="javax.swing.JLabel" binding="round">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="48"/>
+                  <foreground color="-505177"/>
+                  <text value="X"/>
+                </properties>
+              </component>
+              <vspacer id="13e47">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="875aa">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="c8b86" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+                    <minimum-size width="100" height="15"/>
+                    <preferred-size width="100" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <foreground color="-505177"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <text value="Exit"/>
+                </properties>
+              </component>
+              <component id="8fa0c" class="javax.swing.JButton" binding="restartButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+                    <minimum-size width="20" height="15"/>
+                    <preferred-size width="100" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15000774"/>
+                  <enabled value="true"/>
+                  <foreground color="-505177"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <text value="Restart"/>
+                </properties>
+              </component>
+              <vspacer id="f6bac">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="1" use-parent-layout="false">
+                    <minimum-size width="15" height="15"/>
+                    <preferred-size width="15" height="15"/>
+                    <maximum-size width="15" height="15"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
